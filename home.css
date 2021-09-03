@@ -162,9 +162,10 @@ ul{
     align-content: center;
 }
 .colh{
-    flex-basis: 30%;
+    flex-basis: 50%;
     margin-right: 35px;
     align-content: center;
+    padding-left: 35px;
 }
 .h1title{
     color: #ffffff;
@@ -288,7 +289,11 @@ ul{
         color: #000;
     }
 
-
+}
+@media only screen and (max-width: 1024px){
+    .colh{
+        padding-left: 0px;
+    }
 }
 /* -------x------- home-cover ---------x----- */
 
