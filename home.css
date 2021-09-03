@@ -159,10 +159,12 @@ ul{
     align-items: center;
     padding-left: 8%;
     padding-right: 8%;
+    align-content: center;
 }
 .colh{
     flex-basis: 50%;
     margin-right: 35px;
+    align-content: center;
 }
 .h1title{
     color: #ffffff;
