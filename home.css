@@ -163,7 +163,7 @@ ul{
 }
 .colh{
     flex-basis: 50%;
-    margin-right: 35px;
+    margin-right: 55px;
     align-content: center;
     padding-left: 35px;
 }
@@ -293,6 +293,7 @@ ul{
 @media only screen and (max-width: 1024px){
     .colh{
         padding-left: 0px;
+        margin-right: 35px;
     }
 }
 /* -------x------- home-cover ---------x----- */
