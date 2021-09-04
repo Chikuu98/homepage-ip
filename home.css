@@ -181,15 +181,24 @@ ul{
     
 }
 .btn-home{
-    width: 180px;
-    color: #000;
-    font-size: 12px;
+    width: 170px;
+    color: rgb(3, 65, 23);
+    font-size: 15px;
     padding: 12px 0;
     background: #ffffff;
     border: 0;
     border-radius: 20px;
     outline: none;
     margin-top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:inherit;
+}
+.btn-home:hover{
+   
+    border: 1px solid #27ac5f;
+    background: #26ad5e;
+    transition: 0.5s;
+    color: #fff;
 }
 .card{
     width: 185px;
@@ -230,29 +239,31 @@ ul{
 @media only screen and (max-width: 750px){
     .h1title{
         color: #ffffff;
-        font-size: 30px;
+        font-size: 50px;
         font-family: 'Source Sans Pro', sans-serif;
         margin-bottom: 15px;
+        margin-top: 20px;
     }
     .p-cover{
         color: #ffffff;
-        font-size: 8px;
+        font-size: 12px;
         font-family: 'Source Sans Pro', sans-serif;
-        margin-top: 15px;
+        margin-top: 300px;
         
     }
     .btn-home{
-        width: 100px;
+        width: 150px;
         color: #000;
         font-size: 12px;
-        padding: 12px 0;
+        padding: 12px 15px;
         background: #ffffff;
         border: 0;
         border-radius: 20px;
         outline: none;
-        margin-top: 30px;
+        margin-top: 15px;
+        align-content: center;
     }
-    .card{
+    /* .card{
         width: 150px;
         height: 100px;
         display: flex;
@@ -265,8 +276,8 @@ ul{
         background-size: cover;
         transition: transform 0.5s;
         
-    }
-    .cd3{
+    } */
+    /* .cd3{
         background-image: url(home-img/pic3.gif);
     }
     .cd4{
@@ -287,6 +298,12 @@ ul{
     }
     .cd2 .p-cover{
         color: #000;
+    } */
+    .rowh{
+       flex-direction: column;
+    }
+    .colc{
+        visibility: hidden;
     }
 
 }
