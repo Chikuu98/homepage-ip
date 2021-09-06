@@ -49,7 +49,7 @@ ul{
 
 h1{
     font-family: var(--Lexend);
-    font-size: 2.5rem;
+    font-size: 4.5rem;
 }
 
 h2{
@@ -176,7 +176,7 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../assets/Background-image(1).png');
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../assets/Background-image\(1\).jpg');
     background-size: cover;
     height: 110vh;
     display: flex;
@@ -573,6 +573,10 @@ footer{
     .copyrightf{
         text-align: center;
         font-size: 1.5vh;
+    }
+    h1{
+        font-family: var(--Lexend);
+        font-size: 2.5rem;
     }
 
 }
