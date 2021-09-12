@@ -225,7 +225,7 @@ ul{
     color: #fff;
 }
 ::placeholder{
-    color: rgb(202, 197, 197);
+    color: rgb(61, 61, 61);
     font-size: 12px;
 }
 .submit-btn, .btn{

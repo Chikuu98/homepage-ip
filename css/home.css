@@ -263,7 +263,7 @@ ul{
         align-content: center;
     }
     .btn-home:hover{
-        background: #56ab2f;
+        background: linear-gradient(to right, #56ab2f, #a8e063);
         transition: 0.5s;
         color: black;
     }
