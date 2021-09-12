@@ -196,11 +196,9 @@ ul{
     font-weight:inherit;
 }
 .btn-home:hover{
-   
-    
     background: linear-gradient(to right, #56ab2f, #a8e063);
     transition: 0.5s;
-    color: #fff;
+    color: black;
 }
 .card{
     width: 185px;
@@ -265,11 +263,9 @@ ul{
         align-content: center;
     }
     .btn-home:hover{
-   
-        border: 1px solid #27ac5f;
-        background: #26ad5e;
+        background: #56ab2f;
         transition: 0.5s;
-        color: #fff;
+        color: black;
     }
     .rowh{
        flex-direction: column;
