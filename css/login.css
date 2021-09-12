@@ -220,8 +220,6 @@ ul{
     border: 1px solid #fff;
     margin: 6px 0;
     height: 25px;
-    border-radius: 20px;
-    padding: 0 10px;
     outline: none;
     text-align: center;
     color: #fff;
@@ -234,7 +232,7 @@ ul{
     width: 100%;
     background: transparent;
     border: 1px solid #fff;
-    margin: 35px 0 10px;
+    margin: 35px 0 ;
     height: 32px;
     font-size: 12px;
     border-radius: 20px;
@@ -245,7 +243,6 @@ ul{
     cursor: pointer;
 }
 .card-back .submit-btn, .btn{
-    margin: 5px;
     height: 25px;
     margin-top: 15px;
 }
